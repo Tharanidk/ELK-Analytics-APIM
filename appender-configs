@@ -12,3 +12,5 @@ appender.APIM_METRICS_APPENDER.policies.size.type = SizeBasedTriggeringPolicy
 appender.APIM_METRICS_APPENDER.policies.size.size=1000MB
 appender.APIM_METRICS_APPENDER.strategy.type = DefaultRolloverStrategy
 appender.APIM_METRICS_APPENDER.strategy.max = 10
+
+#The apim_metrics.log file be rolled each day or when the log size reaches the limit of 1000 MB by default. 
